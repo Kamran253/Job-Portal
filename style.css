@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ 
+    margin: 0; padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    border: none; outline: none;
+}
+
+.header{
+    padding: 1rem 4%;
+    background:#ABDBEC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons i {
+  color:white ;
+   margin-right: 1.3rem;
+   font-size: 1.3rem;
+
+}
+.logo{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar ul li a {
+    color: rgb(255, 255, 255)    ;
+    text-decoration: none;
+}
+.navbar ul li {
+    margin-right: 2rem;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li select{
+background-color: #ABDBEC;
+border: none;
+color: #fff;
+outline: none;
+}
+
+
+
+.container{
+    padding: 2rem 4%;
+    display: flex;
+    background-color: #F5F5F5;
+    height: 90vh;
+    width: 92%;
+}
+
+.content{
+    flex: 1 1 40rem;
+    padding-top: 6rem;
+}
+
+.btn{
+    padding: .5rem .5rem;
+    background-color: #8dc9e1;
+    border-radius: .5rem;
+    color: #fff;
+    margin-right: .5rem;
+    transition: .4s ease-in-out;
+}
+
+.btn-1{
+    padding: .5rem .5rem;
+    background-color: #ccc;
+    border-radius: .5rem;
+    color: #fff;
+    transition: .4s ease-in-out;
+}
+.navbar a:hover{
+    background-color: #8dc9e1;
+    color: #555;
+    cursor: help;
+}
+.pra{
+    color: #555;
+}
+.heading{
+    color: #ABDBEC;
+}
+.btn:hover{
+    background-color: #ABDBEC;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: #555;
+    cursor: pointer;
+
+}
+
+.image{
+    flex: 1 1 40rem;
+}
+  
+.logoo{
+background-color: #8dc9e1;
+height: 30vh;  
+font: cursive;   
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+   
+    background-color: rgb(14, 12, 12);
+    width: 100%;
+    height: 200px;
+    padding-top:20px;
+    color: white;
+    animation: flade-left 2s infinite;
+    padding-top: 30px;
+  
+   }
+   .pep{
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+
+   }
+   .tre{
+    transition: fd  0.5s linear alternate;
+    transform: rotate(360deg);
+   }
+   .footer2 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1.3rem; font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .footer3 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 140px;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   }
+   .footer3{
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .footer2{
+    margin-top: 30px;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .footer1{
+    margin-top: 20px;
+   }
+
+   .footer4 a {
+    color: white;
+    text-decoration: none;
+   
+}
+.footer4 a:hover{
+    color: rgb(55, 55, 221);
+    cursor: pointer; 
+}
+
+   .footer2 a:hover{
+    color: rgb(55, 55, 221);
+    cursor: pointer;
+   }
+   .footer3 a:hover{
+    color: rgb(55, 55, 221);
+    cursor: pointer;
+   }
+   .black{
+    animation: flade-left 2s infinite;
+animation-timing-function: linear;}
+.con{
+    margin-left: -30px;
+}
+@media (max-width: 998px) {
+}
+@media (max-width: 390px) {
+    body{
+        width: 100%;
+    }
+.header{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.container{
+   display: inline-block;
+   background-color:rgb(238, 235, 235);
+   width: 100%;
+   height: 800px;
+}
+.image{
+    width: 100%;
+}
+
+.img{
+    
+    width: 268px;
+    margin-top: 100px;
+}
+.card{
+    /* width: 390px; */
+    width: 100%;
+}
+.footer{
+    width: 100%;
+height: 600px;
+display: inline-block;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+    
